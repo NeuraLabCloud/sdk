@@ -1,0 +1,29 @@
+{
+	"name": "neuralab",
+	"version": "0.1.0",
+	"description": "Official Neuralab Javascript Client SDK",
+	"main": "./dist/lib.js",
+	"files": [
+		"README.md",
+		"dist",
+		"package.json"
+	],
+	"scripts": {
+		"ts:init": "tsc --init",
+		"build": "tsc -p tsconfig.json"
+	},
+	"keywords": [
+		"neuralab",
+		"client",
+		"sdk",
+		"javascript",
+		"ai"
+	],
+	"homepage": "https://neuralab.dev/docs",
+	"author": "ThatGuyJamal",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.6.2",
+		"typescript": "^5.2.2"
+	}
+}
